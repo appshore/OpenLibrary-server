@@ -1,0 +1,47 @@
+{
+  "OLID:OL21444328M": {
+    "pagination": "245 p.",
+    "identifiers": {
+      "openlibrary": ["OL21444328M"]
+    },
+    "subtitle": "roman",
+    "title": "Le pont de la riviere Kwai",
+    "url": "https://openlibrary.org/books/OL21444328M/Le_pont_de_la_riviere_Kwai",
+    "notes": "6",
+    "number_of_pages": 245,
+    "subjects": [
+      {
+        "url": "https://openlibrary.org/subjects/burma",
+        "name": "Burma"
+      },
+      {
+        "url": "https://openlibrary.org/subjects/world_war,_1939-1945_in_fiction",
+        "name": "World War, 1939-1945 in fiction"
+      },
+      {
+        "url": "https://openlibrary.org/subjects/siam_railroad",
+        "name": "Siam Railroad"
+      },
+      {
+        "url": "https://openlibrary.org/subjects/world_war,_1939-1945",
+        "name": "World War, 1939-1945"
+      },
+      {
+        "url": "https://openlibrary.org/subjects/fiction",
+        "name": "Fiction"
+      }
+    ],
+    "key": "/books/OL21444328M",
+    "authors": [
+      {
+        "url": "https://openlibrary.org/authors/OL134327A/Pierre_Boulle",
+        "name": "Pierre Boulle"
+      }
+    ],
+    "publish_places": [
+      {
+        "name": "[Paris]"
+      }
+    ]
+  }
+}
