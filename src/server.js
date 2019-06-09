@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
+import cors from 'cors';
 
 import { getBooks } from './books';
 
@@ -7,6 +8,7 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 
 // check for REST only endpoints
 app.use(`/${process.env.API}/*`, (req, res, next) => {
