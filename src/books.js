@@ -41,7 +41,7 @@ const booksByTitle = async ({ search }) => {
         const { author_name: authors, edition_key: key, title } = d;
         return {
           authors,
-          OLID: key[0],
+          OLID: key && key[0],
           title
         };
       });
