@@ -4,12 +4,14 @@
   "main": "src/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node --inspect=0.0.0.0:9229 src/server.js",
-    "debug": "./node_modules/.bin/babel src -d .debug --copy-files --source-maps --watch",
+    "start": "nodemon --exec babel-node src/server.js",
+    "debug": "nodemon --exec babel-node --inspect=0.0.0.0:9229 src/server.js",
+    "debug:map": "./node_modules/.bin/babel src -d .debug --copy-files --source-maps --watch",
     "lint": "eslint --ext .js src test",
     "test": "jest --verbose test/*.test.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "got": "^9.6.0"
